@@ -15,8 +15,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Agence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="187">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,11 +33,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Administrateur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="204">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1664#1665#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,10 +83,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Entreprise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Employe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,10 +134,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Clavier.java" />
         <option value="$PROJECT_DIR$/src/main/java/UC.java" />
         <option value="$PROJECT_DIR$/src/main/java/Empruntable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Agence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Emprunteur.java" />
         <option value="$PROJECT_DIR$/src/main/java/Employe.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entreprise.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Emprunteur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Agence.java" />
         <option value="$PROJECT_DIR$/src/main/java/Administrateur.java" />
       </list>
     </option>
@@ -161,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543590470279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543592969855" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp5_DeLaPurification" />
   </component>
   <component name="RunDashboard">
@@ -287,30 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Employe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entreprise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Agence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Empruntable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -322,6 +324,50 @@
             <element signature="e#832#833#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Employe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entreprise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Agence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -340,11 +386,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Administrateur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
           </folding>
         </state>
       </provider>
