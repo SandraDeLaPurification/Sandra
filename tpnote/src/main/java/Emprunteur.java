@@ -1,9 +1,12 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Emprunteur {
     private List<Empruntable> stock;
 
-    public Emprunteur(){ }
+    public Emprunteur(){
+        this.stock = new ArrayList<Empruntable>();
+    }
 
     public void ajouterAuStock(Empruntable unEmprunt){
         this.stock.add(unEmprunt);
@@ -22,5 +25,9 @@ public class Emprunteur {
             return false;
         }
 
+    }
+
+    public void setStock(List<Empruntable> nouveauStock){
+        this.stock = nouveauStock;
     }
 }

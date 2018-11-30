@@ -1,6 +1,8 @@
 public class Empruntable {
     private Boolean limitationPretAuxAgences;
     private Boolean defectueux;
+
+    public Empruntable(){}
     
     public Empruntable(Boolean limitation, Boolean estDefectueux){
         this.limitationPretAuxAgences = limitation;
