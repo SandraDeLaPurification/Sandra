@@ -9,7 +9,7 @@ public class Administrateur extends Employe {
     public Boolean attribuerMateriel(Empruntable empruntable, Emprunteur emprunteur){
         if(empruntable.isLimitationPretAuxAgences()){
             if(emprunteur.getClass().equals(Agence.class)){
-                transfererMateriel(this, empruntable, emprunteur);
+                emprunteur.ajouterAuStock(empruntable);
                 return true;
             }
             else{
@@ -17,13 +17,14 @@ public class Administrateur extends Employe {
             }
         }
         else{
-            transfererMateriel(this, empruntable, emprunteur);
+            emprunteur.ajouterAuStock(empruntable);
             return true;
         }
     }
 
     public Boolean recupererMateriel(Empruntable empruntable, Emprunteur emprunteur){
-        return emprunteur.perdreMateriel(empruntable);
+        transfererMateriel(emprunteur, empruntable, this);
+        return true;
     }
 
     public List<Empruntable> stockEntreprise(){
@@ -35,12 +36,12 @@ public class Administrateur extends Employe {
     }
 
     public void transfererMateriel(Emprunteur emprunteur1, Empruntable empruntable, Emprunteur emprunteur2){
-        if(emprunteur1.listeMateriel().contains(empruntable)){
+        //if(emprunteur1.listeMateriel().contains(empruntable)){
             if(!empruntable.isDefectueux()) {
                 emprunteur1.perdreMateriel(empruntable);
                 emprunteur2.ajouterAuStock(empruntable);
             }
-        }
+        //}
     }
 
     public void supprimerMateriel(Empruntable empruntable){
@@ -65,5 +66,9 @@ public class Administrateur extends Employe {
                 perdreMateriel(unEmprunt);
             }
         }
+    }
+
+    public void achatMateriel(Empruntable unEmprunt){
+        this.entreprise.ajouterAuStock(unEmprunt);
     }
 }

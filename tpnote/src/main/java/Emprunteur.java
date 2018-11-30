@@ -17,13 +17,8 @@ public class Emprunteur {
     }
 
     public Boolean perdreMateriel(Empruntable unEmprunt){
-        if(this.stock.contains(unEmprunt)){
-            this.stock.remove(unEmprunt);
-            return true;
-        }
-        else{
-            return false;
-        }
+        this.stock.remove(unEmprunt);
+        return true;
 
     }
 

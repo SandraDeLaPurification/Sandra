@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Agence extends Emprunteur{
@@ -7,6 +8,7 @@ public class Agence extends Emprunteur{
     public Agence(String leNom){
         super();
         this.nom = leNom;
+        this.employes = new ArrayList<Employe>();
     }
 
     public List<Employe> getEmployes() {

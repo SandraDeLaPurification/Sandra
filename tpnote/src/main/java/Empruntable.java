@@ -1,6 +1,6 @@
 public class Empruntable {
-    private Boolean limitationPretAuxAgences;
-    private Boolean defectueux;
+    private Boolean limitationPretAuxAgences = false;
+    private Boolean defectueux = false;
 
     public Empruntable(){}
     
